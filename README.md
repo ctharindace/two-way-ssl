@@ -19,9 +19,10 @@ gradle bootRun
 ## Improvements
 Following are the improvements that can be done in the implementation:
 
-* Add observability.
 * Containerise the project for deployment flexibility.
 * Use a configuration server instead of in project configs.
 * Refrain fom committing the keystore and credentials.
+* Introduce an authentication mechanism.
+* Introduce fault tolerance.
+* Introduce observability.
 * Improve unit tests.
-* Add fault tolerance.
